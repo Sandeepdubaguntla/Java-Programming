@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class  FactorialSum
+class  FactorialSumOfEachDigit
 {
 	public static void main(String[] args) 
 	{
