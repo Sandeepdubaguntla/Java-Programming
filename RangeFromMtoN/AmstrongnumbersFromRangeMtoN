@@ -1,0 +1,48 @@
+import java.util.Scanner;
+class AmstrongnumbersFromRangeMtoN 
+{
+	/*
+	   An Armstrong number is a number that is equal to the 
+	   sum of exponential value of each digit to its count number of digits 
+	   (raised to the power of the number of digits). 
+	   For example, 153 is an Armstrong number 
+	   because 1³ + 5³ + 3³ = 1 + 125 + 27 = 153. 
+	*/
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of M");
+		int m=sc.nextInt();
+		System.out.println("Enter the value of N");
+		int n=sc.nextInt();
+		for(int i=m;i<=n;i++){
+			int num = i;
+			int temp = num;
+			int temp1 = num;
+			int count=0;
+			int sum=0;
+			while(num>0)
+			{
+				num=num/10;
+				count++;
+			}
+			while(temp>0)
+			{
+				int expo=1;
+				int ld = temp % 10;
+				for(int j=1;j<=count;j++)
+				{
+					expo = expo * ld;
+				}
+				sum = sum + expo;
+				temp = temp / 10;
+			}
+			if(sum == temp1)
+			{
+				System.out.println(i);
+			}
+		}
+
+
+	}
+}
