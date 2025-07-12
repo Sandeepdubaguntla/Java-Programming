@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
       Pattern:
 
-	    a b c d e d c b a
+	        a b c d e d c b a
 		  a b c d c b a
 		    a b c b a
 		      a b a
