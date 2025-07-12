@@ -1,0 +1,6 @@
+Now , Lets Learn about the Infinite loops
+
+An infinite loop is a sequence of instructions in a computer program that repeats indefinitely 
+because it lacks a proper termination condition. 
+This means the loop never ends unless an external force stops it, 
+such as a user manually halting the program or the system running out of resources. 
