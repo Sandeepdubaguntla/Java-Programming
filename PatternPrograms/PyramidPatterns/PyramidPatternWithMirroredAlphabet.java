@@ -2,7 +2,7 @@ import java.util.Scanner;
 /*
     Pattern:
   
-            a
+                a
 	      b a b
 	    c b a b c
 	  d c b a b c d
