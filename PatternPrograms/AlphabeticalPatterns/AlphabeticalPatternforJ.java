@@ -4,9 +4,9 @@ import java.util.Scanner;
       
 	  * * * * * 
 	      *
-      *   *
-	  *	  *   
-	  * * * 
+              *
+	  *   *   
+	   * * 
 
    Note: This will only satisfy if rows and cols are equal. 
 */
