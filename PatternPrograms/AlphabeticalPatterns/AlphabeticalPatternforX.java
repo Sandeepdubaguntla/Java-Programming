@@ -2,11 +2,11 @@ import java.util.Scanner;
 /*
     Pattern :
 
-   *       *
+       *       *
 	 *   * 
 	   * 
 	 *   *
-   *       *
+       *       *
 
 
 */
