@@ -27,3 +27,30 @@ class PalindromeNumber
 		}
 	}
 }
+
+
+//Program in methods
+/*
+import java.util.Scanner;
+class PalindromeNumber 
+{   
+    public static boolean palindrome(int num){
+        int temp=num;
+	int rev=0;
+	while(num>0){
+	    int ld=num%10;
+            rev=(rev*10) + ld;
+            num=num/10;
+	}
+	return (rev==temp);
+    }
+    public static void main(String[] args) 
+    {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the Number...");
+	int num=sc.nextInt();
+	System.out.println(num+ " is a Palindrome Number " +palindrome(num));
+    }
+}
+*/
+
